@@ -25,7 +25,27 @@ body {
   padding: 0;
 }
 
+.psuedowidth {
+	width: 45%;
+}
+
+.figure {
+	overflow: hidden;
+	position: relative;
+}
+
 img {
   display: block;
   width: 100%;
+}
+
+.img-text {
+	color: #FFF;
+	font-family: Times Baskerville, "Times New Roman", serif;
+	font-style:italic;
+	position: absolute;
+	bottom: 1rem;
+	background-color:rgba(0,0,0,0.65);
+	padding: 1.5rem;
+	margin: 0 0 0 0;
 }
