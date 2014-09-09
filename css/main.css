@@ -58,7 +58,6 @@ img {
 
 .data-list {
 	display: inline-block;
-	border-right: solid 1px #B0B0B0;
 	padding-right: 1.5rem;
 }
 
@@ -74,6 +73,6 @@ img {
 	color:#A9A9A9;
 }
 
-.no-border {
-	border: none;
+.right-border {
+	border-right: solid 1px #B0B0B0;
 }
