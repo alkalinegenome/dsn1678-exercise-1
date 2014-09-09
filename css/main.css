@@ -56,11 +56,24 @@ img {
 	margin: 0 0 0 0;
 }
 
-.data-list dt, dd {
+.data-list {
 	display: inline-block;
+	border-right: solid 1px #B0B0B0;
+	padding-right: 1.5rem;
 }
 
 .datalist dt {
 	width: 33%;
 	text-decoration: none;
+}
+
+.list-head {
+	font-size: .75rem;
+	font-weight:800;
+	text-transform: uppercase;
+	color:#A9A9A9;
+}
+
+.no-border {
+	border: none;
 }
